@@ -21,4 +21,10 @@ serverless deploy -v
 ```
 serverless offline start
 http POST http://localhost:3000/twitter/to/steem
+http POST http://localhost:3000/twitter/to/steem tweetLink="https://twitter.com/aviaryan123/status/1044822638798024704"
 ```
+
+## TODO
+
+- [ ] Integrate with IFTTT
+- [ ] Use Twitter API to fetch tweet

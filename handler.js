@@ -3,8 +3,10 @@
 const postToSteem = require('./lib/steem.js')
 
 module.exports.twitter2steem = async (event, context, cb) => {
-  console.log('tesss')
-  const status = await postToSteem('', 'some test content that goes from twitter to steeem');
+  // console.log(event, context)
+  const data = JSON.parse(event.body)
+
+  const status = await postToSteem(data['tweetLink']);
 
   return {
     statusCode: 200,

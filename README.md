@@ -32,6 +32,7 @@ http POST http://localhost:3000/twitter/to/steem tweetLink="https://twitter.com/
 
 - [x] Integrate with IFTTT
 - [x] Use Twitter API to fetch tweet
-- [ ] Handle @ Twitter mentions
+- [x] Handle @ Twitter mentions
 - [ ] Handle RTs and media uploads
-- [ ] Have Twitch video link in STEEM post
+- [ ] Have Twitch video link in STEEM post?
+- [ ] Post only first-level tweets?

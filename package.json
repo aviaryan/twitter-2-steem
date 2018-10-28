@@ -13,11 +13,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "steem": "^0.7.2"
+    "steem": "^0.7.2",
+    "twit": "^2.2.11"
   },
   "devDependencies": {
-    "aws-sdk": "^2.344.0",
-    "serverless-offline": "^3.30.0",
-    "serverless-secrets": "^3.0.0-beta.12"
+    "serverless-offline": "^3.30.0"
   }
 }

@@ -21,10 +21,11 @@ serverless deploy -v
 ```
 serverless offline start
 http POST http://localhost:3000/twitter/to/steem
-http POST http://localhost:3000/twitter/to/steem tweetLink="https://twitter.com/aviaryan123/status/1044822638798024704"
+http POST http://localhost:3000/twitter/to/steem tweetLink="https://twitter.com/aviaryan123/status/1056636936297824259"
 ```
 
 ## TODO
 
-- [ ] Integrate with IFTTT
-- [ ] Use Twitter API to fetch tweet
+- [x] Integrate with IFTTT
+- [x] Use Twitter API to fetch tweet
+- [ ] Have Twitch video link in STEEM post

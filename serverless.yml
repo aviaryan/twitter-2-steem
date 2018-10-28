@@ -22,6 +22,10 @@ provider:
   runtime: nodejs8.10
   environment:
     STEEMIT_PK: ${ssm:STEEMIT_PK}
+    TW_C_K: ${ssm:TW_C_K}
+    TW_C_S: ${ssm:TW_C_S}
+    TW_A_S: ${ssm:TW_A_S}
+    TW_A_T: ${ssm:TW_A_T}
 
 # you can overwrite defaults here
 #  stage: dev

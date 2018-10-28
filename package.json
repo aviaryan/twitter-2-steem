@@ -1,0 +1,23 @@
+{
+  "name": "twitter2steem",
+  "version": "1.0.0",
+  "description": "Serverless function to post from Twitter to Steem, automatically.",
+  "main": "handler.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "steem": "^0.7.2"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.344.0",
+    "serverless-offline": "^3.30.0",
+    "serverless-secrets": "^3.0.0-beta.12"
+  }
+}

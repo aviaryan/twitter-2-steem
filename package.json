@@ -14,7 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "steem": "^0.7.2",
-    "twit": "^2.2.11"
+    "twit": "^2.2.11",
+    "url-unshort": "^5.0.0"
   },
   "devDependencies": {
     "serverless-offline": "^3.30.0"

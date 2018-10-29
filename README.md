@@ -24,7 +24,7 @@ serverless deploy -v
 
 ```
 serverless offline start
-http POST http://localhost:3000/twitter/to/steem tweetLink="https://twitter.com/aviaryan123/status/1056636936297824259"
+http POST http://localhost:3000/twitter/to/steem tweetLink="https://twitter.com/aviaryan123/status/1056659654896422912"
 ```
 
 ## Can I use it for myself?
@@ -38,6 +38,8 @@ Let me know if you need help with this. You can watch the [livestream](https://w
 - [x] Integrate with IFTTT
 - [x] Use Twitter API to fetch tweet
 - [x] Handle @ Twitter mentions
+- [x] Fix shortened URLs
+- [x] Handle quoted tweets
 - [ ] Handle RTs and media uploads
 - [ ] Have Twitch video link in STEEM post?
 - [ ] Post only first-level tweets?

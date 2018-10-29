@@ -1,4 +1,4 @@
-# Twitter 2 Steem
+# Twitter 2 Steem 🐦 ➡️ 💲
 
 Serverless function to post from Twitter to Steem, automatically.
 
@@ -24,7 +24,6 @@ serverless deploy -v
 
 ```
 serverless offline start
-http POST http://localhost:3000/twitter/to/steem
 http POST http://localhost:3000/twitter/to/steem tweetLink="https://twitter.com/aviaryan123/status/1056636936297824259"
 ```
 

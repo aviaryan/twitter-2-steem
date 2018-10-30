@@ -1,12 +1,27 @@
 # Twitter 2 Steem 🐦 ➡️ 💲
 
-Serverless function to post from Twitter to Steem, automatically.
+Serverless app to post from Twitter to Steem, automatically.
 
 This project was built live on Twitch ([part 1](https://www.twitch.tv/videos/328611364) [part 2](https://www.twitch.tv/videos/328906758)). 
 
-[Sample STEEM post](https://steemit.com/twitter2steem/@the-dragon/re-the-dragon-twitter2steem-20181028t204908565z)
+## In Action
 
-## Deploy
+Here is the [tweet](https://twitter.com/aviaryan123/status/1056903793781161985) I created.
+
+![tweet](https://i.imgur.com/0zvLQ1r.png)
+
+Here is the automatic [STEEM post](https://steemit.com/twitter2steem/@the-dragon/re-the-dragon-twitter2steem-20181029t134208431z) for the same.
+
+![steem post](https://i.imgur.com/mpauJyT.png)
+
+## Development
+
+```
+serverless offline start
+http POST http://localhost:3000/twitter/to/steem tweetLink="https://twitter.com/aviaryan123/status/1056659654896422912"
+```
+
+## Deployment
 
 First, set your AWS credentials.
 
@@ -18,13 +33,6 @@ Then deploy.
 
 ```
 serverless deploy -v
-```
-
-## Development
-
-```
-serverless offline start
-http POST http://localhost:3000/twitter/to/steem tweetLink="https://twitter.com/aviaryan123/status/1056659654896422912"
 ```
 
 ## Can I use it for myself?

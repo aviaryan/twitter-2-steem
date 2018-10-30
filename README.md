@@ -2,7 +2,7 @@
 
 Serverless function to post from Twitter to Steem, automatically.
 
-This project was built [live on Twitch](https://www.twitch.tv/videos/328611364). 
+This project was built live on Twitch ([part 1](https://www.twitch.tv/videos/328611364) [part 2](https://www.twitch.tv/videos/328906758)). 
 
 [Sample STEEM post](https://steemit.com/twitter2steem/@the-dragon/re-the-dragon-twitter2steem-20181028t204908565z)
 
@@ -31,7 +31,7 @@ http POST http://localhost:3000/twitter/to/steem tweetLink="https://twitter.com/
 
 I am not sure if people would like to use it, hence I made it serverless, just for myself. If you would like to use it though, you can fork this project, deploy it to your AWS, change code where needed and use it.
 
-Let me know if you need help with this. You can watch the [livestream](https://www.twitch.tv/videos/328611364) if you are confused at any point.
+Let me know if you need help with this. You can watch the livestreams if you are confused at any point.
 
 ## TODO
 

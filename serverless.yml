@@ -26,6 +26,8 @@ provider:
     TW_C_S: ${ssm:TW_C_S}
     TW_A_S: ${ssm:TW_A_S}
     TW_A_T: ${ssm:TW_A_T}
+    TWITTER_UN: aviaryan123
+    STEEM_UN: the-dragon
 
 # you can overwrite defaults here
 #  stage: dev

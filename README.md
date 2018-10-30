@@ -37,7 +37,9 @@ serverless deploy -v
 
 ## Can I use it for myself?
 
-I am not sure if people would like to use it, hence I made it serverless, just for myself. If you would like to use it though, you can fork this project, deploy it to your AWS, change code where needed and use it.
+I am not sure if people would like to use it, hence I made it serverless, just for myself. If you would like to use it though, you can fork this project, change environment variables and deploy it to your AWS.
+
+The environment variables are defined in [serverless.yml](serverless.yml) file. Change `STEEM_UN` and `TWITTER_UN` to your accounts and set up STEEM posting key (STEEMIT_PK), Twitter Consumer Key (TW_C_K), Twitter Consumer Secret (TW_C_S), Twitter Access Token (TW_A_T) and Twitter Access Token Secret (TW_A_S) in [Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-paramstore.html) of AWS Systems Manager. That's all.
 
 Let me know if you need help with this. You can watch the livestreams if you are confused at any point.
 
